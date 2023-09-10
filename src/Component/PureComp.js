@@ -12,6 +12,7 @@ export class PureCmp extends PureComponent{
         console.log('This is render.....')
         return(
             <>
+            <h1>This is PureComponent</h1>
             <div> Count : {this.state.count}</div>
             <button onClick={()=>this.setState({count: 1})}> State not Changing</button>
             </>
