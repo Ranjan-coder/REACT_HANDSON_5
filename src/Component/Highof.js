@@ -3,7 +3,7 @@ import React from 'react'
 export function HighorderFncn(props){
     return(
         <>
-        <h1> {<props.value course={"Course : Web Development"}/>}</h1>
+        <div> {<props.value course={"Course : Web Development"}/>}</div>
         </>
     )
 }
@@ -11,7 +11,7 @@ export function HighorderFncn(props){
 export function Highofnc(props){
     return (
         <>
-        <h2>{<props.value course={"Lang : MEARN"} />}</h2>
+        <div>{<props.value course={"Lang : MEARN"} />}</div>
         </>
     )
 }
